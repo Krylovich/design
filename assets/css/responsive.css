@@ -67,6 +67,15 @@ Table of Contents
 
 }
 
+@media(min-height: 850px) {
+	.agency-modern .hero .video {
+		width: 809px;
+		height: 489px;
+		padding: 40px;
+		margin: 20px auto 40px;
+	}
+}
+
 /* Start @media(max-width:1200px) */
 
 @media(max-width: 1200px) {

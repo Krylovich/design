@@ -715,8 +715,8 @@ footer ul {
 
 .header-default,
 .header-minimal {
-	height: 80px;
-	line-height: 80px;
+	height: 90px;
+	line-height: 90px;
 }
 
 .header-minimal .nav-open {
@@ -1543,23 +1543,22 @@ footer ul {
 }
 
 .agency-modern .hero .follow-us-links{
-	display: flex;
-	flex-direction: row;
-	list-style-type: none;
-	float: right;
-	margin-top: 80px;
-	
+	float: left;
 }
 
 .agency-modern .hero .follow-us-links li {
     float: left;
-    font-size: .900rem;
+    font-size: 1.2rem;
     margin-left: 35px;
+}
+
+.agency-modern .hero .follow-us-links li:first-child {
+	margin-left: 0;
 }
 
 .agency-modern .hero .content {
 	text-align: center;
-	margin-top: 15px;
+	margin-top: 50px;
 }
 
 .agency-modern .hero h1 {
@@ -1576,14 +1575,14 @@ footer ul {
 	font-weight: 500;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 	color:#fff;
 }
 
 .agency-modern .hero .video {
-	width: 760px;
-	height: 440px;
-	padding: 20px;
+	width: 704px;
+	height: 425px;
+	padding: 40px;
 	margin: 0 auto 20px auto;
 	background: url('../img/background.jpg');
 	-webkit-background-size: cover;

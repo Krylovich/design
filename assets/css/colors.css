@@ -23,6 +23,9 @@ Table of Contents
 /*-----------------------------------------------------
 # color #000
 ------------------------------------------------------*/
+body {
+	background-color:#000;
+}
 
 .navigation ul li a,
 .full-screen-nav a,
@@ -52,9 +55,18 @@ Table of Contents
 .nav-open i:after,
 .full-screen-nav .coll-nav-sub-item a:after,
 .contact-form input[type=submit],
-.project-description h2 span:after,
-.btn:hover {
+.project-description h2 span:after{
 	background: #000;
+}
+
+.btn {
+	background: #f7ecac;
+	color: #000;
+}
+
+.btn:hover {
+	background: #fff;
+	color: #000;
 }
 
 /*-----------------------------------------------------
@@ -147,12 +159,10 @@ Table of Contents
 .tag-links a:hover,
 .share-links li:hover a,
 .contact-form input[type=submit],
-.btn,
 .agency-modern .about .info .content,
 .cta_01 h2,
 .footer-inverse,
-.footer-inverse .follow-us-links li a,
-.btn:hover {
+.footer-inverse .follow-us-links li a {
 	color: #fff;
 }
 
@@ -182,8 +192,8 @@ Table of Contents
 .mail-link,
 .follow-us-links li a:hover,
 .agency-minimal .intro h2,
-.cta_01 .btn:hover {
-	color: #0260e8;
+.cta_01 {
+	color: #f7ecac;
 }
 
 /*-----------------------------------------------------
@@ -197,7 +207,6 @@ Table of Contents
 .contact-form input[type=submit]:hover,
 .cta_02 .cta-link:before,
 .personal-portfolio .hero .cta-link:before,
-.btn,
 .mail-link:after {
 	background: #0260e8;
 }
