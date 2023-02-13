@@ -32,7 +32,7 @@ a {
 	text-align: center;
 	text-transform: uppercase;
 	width: 220px;
-	margin: 0 auto;
+	margin: 20px auto;
 }
 
 .contact-form input,
@@ -97,8 +97,8 @@ a {
 }
 
 .container {
-	max-width: 1170px;
-	margin: auto;
+	width: calc(100% - 60px);
+	margin: 0 30px;
 }
 
 .container-large {
@@ -742,6 +742,10 @@ footer ul {
 	margin-left: 60px;
 	position: relative;
 	text-transform: uppercase;
+}
+
+.navigation > ul > li:first-child {
+    margin-left: 0;
 }
 
 .sub-nav {
@@ -1529,7 +1533,7 @@ footer ul {
 	background-position: center;
 	display: flex;
 	flex-direction: column;
-	height: 93vh;
+	height: 95vh;
 	justify-content: center;
 	position: relative;
 	width: 100%;
@@ -1559,6 +1563,7 @@ footer ul {
 .agency-modern .hero .content {
 	text-align: center;
 	margin-top: 50px;
+	width: calc(55% - 60px);
 }
 
 .agency-modern .hero h1 {
@@ -1579,15 +1584,29 @@ footer ul {
 	color:#fff;
 }
 
-.agency-modern .hero .video {
-	width: 694px;
-	height: 420px;
-	padding: 40px;
-	margin: 0 auto 20px auto;
-	background: url('../img/background.jpg');
+.thumb-wrapper {
+    background: url('../img/background.jpg');
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+.thumb-wrap {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+}
+
+.thumb-wrap iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-width: 0;
+	outline-width: 0;
 }
 
 /* =============== # Contact =============== */
