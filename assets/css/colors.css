@@ -36,7 +36,6 @@ body {
 .entry-category,
 .entry-title a,
 .blog-item .read-more,
-.footer-extended .info ul li:first-child,
 .share-links a,
 .about-author .follow-links li a,
 .comment .reply,
@@ -46,6 +45,17 @@ body {
 .follow-us-links li a,
 .interactive-links a {
 	color: #fff;
+}
+
+.body-single .header-default .container .follow-us-links li a,
+.body-single .header-default .container .navigation ul li a,
+.footer-extended .info ul li:first-child {
+	color: #000;
+}
+
+.body-single .header-default .container .follow-us-links li a:hover,
+.body-single .header-default .container .navigation ul li a:hover {
+	color: #f7ecac;
 }
 
 .portfolio-item-title {
