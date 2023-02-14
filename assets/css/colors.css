@@ -40,10 +40,13 @@ body {
 .next-project h1 a,
 .contact-info li:first-child,
 .cta-link,
-.portfolio-item-title,
 .follow-us-links li a,
 .interactive-links a {
 	color: #fff;
+}
+
+.portfolio-item-title {
+	color:#000;
 }
 
 /*-----------------------------------------------------
@@ -74,7 +77,6 @@ body {
 ------------------------------------------------------*/ 
 
 .agency-modern .about .info,
-.cta_01,
 .footer-inverse {
 	background: #212121;
 }
@@ -160,10 +162,13 @@ body {
 .share-links li:hover a,
 .contact-form input[type=submit],
 .agency-modern .about .info .content,
-.cta_01 h2,
 .footer-inverse,
 .footer-inverse .follow-us-links li a {
 	color: #fff;
+}
+
+.cta_01 h2 {
+	color: #000;
 }
 
 /*-----------------------------------------------------
@@ -173,9 +178,13 @@ body {
 .sub-nav,
 .full-screen-nav,
 .team-member .overlay,
-.portfolio-item-overlay,
-.cta_01 .btn:hover {
+.portfolio-item-overlay {
 	background: #fff;
+}
+
+.cta_01 .btn:hover {
+    background: #000;
+    color: #fff;
 }
 
 /*-----------------------------------------------------
