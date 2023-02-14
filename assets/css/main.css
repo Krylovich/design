@@ -1866,6 +1866,11 @@ footer ul {
 	font-weight: normal;
 	margin-left: -5px;
 	text-transform: capitalize;
+	color: #000;
+}
+
+.next-project h1 a {
+	color: #000;
 }
 
 .next-project h2 {

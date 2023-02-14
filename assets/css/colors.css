@@ -27,6 +27,10 @@ body {
 	background-color:#000;
 }
 
+.body-single {
+	background-color: #fff;
+}
+
 .navigation ul li a,
 .full-screen-nav a,
 .entry-category,
@@ -37,7 +41,6 @@ body {
 .about-author .follow-links li a,
 .comment .reply,
 .contact-form input::placeholder,
-.next-project h1 a,
 .contact-info li:first-child,
 .cta-link,
 .follow-us-links li a,
