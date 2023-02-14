@@ -29,7 +29,7 @@ Table of Contents
 	}
 
 	.cta_01 {
-		height: 600px;
+		height: 300px;
 	}
 
 	.portfolio-2-col-grid-no-gap .portfolio-item {
@@ -48,11 +48,6 @@ Table of Contents
 /* Start @media(max-width:1720px) */
 
 @media(max-width: 1720px){
-
-	.container-large {
-		margin-left: 50px;
-		margin-right: 50px;
-	}
 
 	.portfolio-cards .portfolio-item {
 		height: 500px;

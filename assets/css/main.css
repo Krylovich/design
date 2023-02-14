@@ -102,8 +102,8 @@ a {
 }
 
 .container-large {
-	max-width: 1720px;
-	margin: auto;
+	width: calc(100% - 60px);
+    margin: 0 30px;
 }
 
 .clearfix {
@@ -528,7 +528,7 @@ a {
 .cta_01 {
 	align-items: center;
 	display: flex;
-	height: 500px;
+	height: 250px;
 	justify-content: center;
 	text-align: center;
 	width: 100%;
@@ -1030,7 +1030,9 @@ footer ul {
 /* Portfolio Metro 01 */ 
 
 .portfolio-metro-01 {
-	margin: 15px;
+	margin: 15px auto;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .portfolio-metro-01 .portfolio-item img,
