@@ -1030,9 +1030,8 @@ footer ul {
 /* Portfolio Metro 01 */ 
 
 .portfolio-metro-01 {
-	margin: 15px auto;
-    width: 100%;
-    max-width: 1200px;
+	margin: 15px auto 40px;
+    width: calc(100% - 30px);
 }
 
 .portfolio-metro-01 .portfolio-item img,
@@ -1047,9 +1046,9 @@ footer ul {
 
 .portfolio-metro-01 > a:nth-of-type(1) > .portfolio-item {
 	float: left;
-    padding-top: 34%;
+    padding-top: 24%;
     position: relative;
-    width: 60%;
+    width: 20%;
 }
 
 .portfolio-metro-01 .wrapper:nth-of-type(1) {
@@ -1065,30 +1064,30 @@ footer ul {
 
 .portfolio-metro-01 > a:nth-of-type(2) > .portfolio-item {
 	float: right;
-    padding-top: 34%;
+    padding-top: 24%;
     position: relative;
-    width: 40%;
+    width: 30%;
 }
 
 .portfolio-metro-01 .wrapper a:nth-of-type(2) .portfolio-item {
 	float: left;
     padding-top: 58%;
     position: relative;
-    width: 45%;
+    width: 47%;
 }
 
 .portfolio-metro-01 .wrapper a:nth-of-type(3) .portfolio-item {
 	float: left;
     padding-top: 58%;
     position: relative;
-    width: 55%;
+    width: 53%;
 }
 
 .portfolio-metro-01 > a:nth-of-type(3) > .portfolio-item {
 	float: right;
-    padding-top: 58.2%;
+    padding-top: 24.5%;
     position: relative;
-    width: 40%;
+    width: 50%;
 }
 
 /* Portfolio Metro 02 */ 
@@ -1102,7 +1101,7 @@ footer ul {
 
 .portfolio-metro-01 .wrapper:nth-of-type(1) {
     float: left;
-    width: 60%;
+    width: 50%;
 }
 
 .portfolio-metro-02 .wrapper:nth-of-type(1) a:nth-of-type(1) .portfolio-item,
