@@ -39,17 +39,11 @@ body {
 .share-links a,
 .about-author .follow-links li a,
 .comment .reply,
-.contact-form input::placeholder,
-.contact-info li:first-child,
 .cta-link,
 .follow-us-links li a,
 .interactive-links a {
 	color: #fff;
 }
-
-.active a {
-	color:#f7ecac;
-} 
 
 .body-single .header-default .container .follow-us-links li a,
 .body-single .header-default .container .navigation ul li a,
@@ -62,7 +56,10 @@ body {
 	color: #f7ecac;
 }
 
-.portfolio-item-title {
+.portfolio-item-title,
+.contact-info li:first-child,
+.contact-form input::placeholder,
+.contact-info li:first-child {
 	color:#000;
 }
 
@@ -87,6 +84,11 @@ body {
 .btn:hover {
 	background: #fff;
 	color: #000;
+}
+
+.contact-form input[type="submit"]:hover {
+	background:#f7ecac;
+	color:#000;
 }
 
 /*-----------------------------------------------------
@@ -184,7 +186,8 @@ body {
 	color: #fff;
 }
 
-.cta_01 h2 {
+.cta_01 h2,
+.collapsible-nav li a {
 	color: #000;
 }
 
@@ -222,6 +225,12 @@ body {
 	color: #f7ecac;
 }
 
+.hero .nav-open i,
+.hero .nav-open i:before,
+.hero .nav-open i:after {
+	background-color:#f7ecac;
+}
+
 /*-----------------------------------------------------
 # background #0260e8
 ------------------------------------------------------*/
@@ -230,7 +239,6 @@ body {
 .sub-nav li:hover,
 .tag-links a:hover,
 .share-links li:hover,
-.contact-form input[type=submit]:hover,
 .cta_02 .cta-link:before,
 .personal-portfolio .hero .cta-link:before {
 	background: #0260e8;

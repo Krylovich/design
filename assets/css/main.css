@@ -101,6 +101,14 @@ a {
 	margin: 0 30px;
 }
 
+.single-project .container,
+.about-me .container-main,
+.contact .container-main {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
 .container-large {
 	width: calc(100% - 60px);
     margin: 0 30px;
@@ -1393,9 +1401,9 @@ footer ul {
 
 .about-me .image {
 	float: left;
-	height: 770px;
-	margin-right: 5%;
-	width: 49%;
+	height: 600px;
+    margin-right: 4%;
+    width: 50%;
 }
 
 .about-me .content {
@@ -1405,7 +1413,7 @@ footer ul {
 
 .about-me h2 {
 	font-family: Questrial, sans-serif;
-	font-size: 2.7rem;
+	font-size: 2.3rem;
 	font-weight: normal;
 	text-transform: capitalize;
 }
@@ -1732,11 +1740,6 @@ footer ul {
 	margin: 60px 0 100px 0;
 }
 
-.single-project .container {
-	width: 80%;
-	margin: 0 auto;
-}
-
 .single-project .intro {
 	margin-bottom: 60px;
 }
@@ -1824,6 +1827,15 @@ footer ul {
 
 .project-img-halved .item:first-child {
 	margin-left: 0;
+}
+
+.project-img-halved-special .item:nth-of-type(1),
+.project-img-halved-special .item:nth-of-type(3) { 
+	width: 38%;
+}
+
+.project-img-halved-special .item:nth-of-type(2) {
+	width: 22%;
 }
 
 .project-description {
