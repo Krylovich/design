@@ -64,7 +64,7 @@ Table of Contents
 
 /* Start @media(max-width:1200px) */
 
-@media(max-width: 1200px) {
+@media(max-width: 1240px) {
 
 	.agency-modern .about .info {
 		float: none;
@@ -88,15 +88,23 @@ Table of Contents
 		width: 100%;
 	}
 
-	.container,
-	.container-large,
+	.agency-modern .hero {
+		height: 94vh;
+	}
+
 	.agency-modern .hero .content {
-		margin-left: 25px;
-		margin-right: 25px;
+		width: 60%;
 	}
 
 	.personal-portfolio .content p br {
 		content: "";
+	}
+
+	.single-project .container,
+	.about-me .container-main,
+	.contact .container-main,
+	.footer-extended .info {
+		max-width: 900px;
 	}
 }
 
@@ -104,8 +112,13 @@ Table of Contents
 
 @media(max-width: 1024px) {
 
-	.agency-modern .hero h1 {
-		font-size: 4rem;
+	.agency-modern .hero .content {
+		width: 65%;
+	}
+
+	.agency-modern .hero h1,
+	.cta_01 h2 {
+		font-size: 2.7rem;
 	}
 
 	.blog-item {
@@ -189,12 +202,6 @@ Table of Contents
 	    margin-bottom: 60px;
 	}
 
-	.single-project .info {
-		float: none;
-		margin-right: 0;
-		width: 60%;
-	}
-
 	.single-project .details {
 		float: none;
 		margin-top: 32px;
@@ -205,6 +212,13 @@ Table of Contents
 /* Start @media(max-width:970px) */
 
 @media(max-width: 970px) {
+
+	.single-project .container, 
+	.about-me .container-main, 
+	.contact .container-main, 
+	.footer-extended .info {
+		max-width: 700px;
+	}
 
 	.about-me .image,
 	.about-me .content {
@@ -225,6 +239,29 @@ Table of Contents
 	.about-us .intro p {
 		float: none;
 		width: 70%;
+	}
+
+	.about-me .testimonials-content,
+	.project-img-halved  {
+		flex-direction: column;
+	}
+
+	.about-me .testimonials {
+		margin-top: 40px;
+	}
+
+	.about-me .testimonials-content .item {
+		width: 100%;
+		margin-left: 0;
+		margin-bottom: 40px;
+	}
+
+	.single-project .info h1 {
+		font-size: 3rem;
+	}
+
+	.mail-link {
+		font-size: 1.7rem;
 	}
 
 	.agency-modern .hero h1 {
@@ -273,10 +310,6 @@ Table of Contents
 		width: 100%;
 	}
 
-	.extended-project-details {
-		width: 85%;
-	}
-
 	.irregular-grid-01 .portfolio-item {
 		float: none;
 		margin-bottom: 64px;
@@ -313,6 +346,25 @@ Table of Contents
 		float: none;
 	}
 
+	.wrapper-video .project-img-full:nth-of-type(1) {
+		padding-bottom: 64%;
+		margin: 10px 10px 10px 0;
+	}
+
+	
+
+	.personal .project-img-halved {
+		flex-direction: initial;
+	}
+
+	.single-project .personal .project-img-halved .wrapper .item {
+      margin-bottom: 0;
+	}
+
+	.wrapper-video .wrapper-video-item {
+		width: calc(53% - 15px);
+	}
+
 	.project-description h2 {
 		width: 100%;
 	}
@@ -320,12 +372,20 @@ Table of Contents
 	.project-description .content {
 		float: left;
 		margin-top: 20px;
-		width: 65%;
 	}
 
-	.project-img-full,
+	.project-description {
+		margin: 30px 0;
+	}
+
+	.single-project .intro {
+		margin-bottom: 30px;
+	}
+
 	.project-img-halved .item {
-		height: 600px;
+		width: 100%;
+		margin-bottom: 30px;
+		margin-left: 0;
 	}
 
 	.services_01 {
@@ -350,6 +410,10 @@ Table of Contents
 
 	.team-member {
 		width: 50%;
+	}
+
+	.footer-extended .info {
+		padding: 70px 0 90px 0;
 	}
 }
 

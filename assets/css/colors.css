@@ -227,7 +227,6 @@ body {
 .tag-links a,
 .about-author .follow-links li a:hover,
 .comment .reply:hover,
-.mail-link,
 .follow-us-links li a:hover,
 .agency-minimal .intro h2,
 .cta_01 {
@@ -254,7 +253,11 @@ body {
 }
 
 .mail-link:after {
-	background:#f7ecac;
+	background:#374f73;
+}
+
+.mail-link {
+	color: #374f73;
 }
 
 /*-----------------------------------------------------

@@ -549,7 +549,7 @@ a {
 
 .cta_01 h2 {
 	font-family: Questrial, sans-serif;
-	font-size: 3.75rem;
+	font-size: 3.2rem;
 	font-weight: normal;
 	letter-spacing: 1px;
 	line-height: 1.2;
@@ -685,7 +685,6 @@ footer ul {
 }
 .footer-default-inverse-border {
 	border-top: 1px solid #333;
-	height: 101px;
 }
 
 .footer-extended .info {
@@ -1771,23 +1770,77 @@ footer ul {
 	margin-top: 15px;
 }
 .personal .project-img-halved .wrapper:nth-of-type(1) {
-	width: 40%;
+	width: 43%;
 	float: left;
 }
 
-.personal .project-img-halved .wrapper .item:nth-of-type(1) {
-	width: 100%;
-	margin-bottom: 15px;
-	margin-right: 15px;
-	margin-top: 15px;
+.single-project .personal .project-img-halved .wrapper .item .img-cover {
+	
 }
 
-.personal .project-img-halved .wrapper .item:nth-of-type(2),
-.personal .project-img-halved .wrapper .item:nth-of-type(3),
-.personal .project-img-halved .wrapper .item:nth-of-type(4) {
+.single-project .personal .project-img-halved .wrapper .item:nth-of-type(1) {
+	width: 100%;
+	padding: 15px 15px 15px 0;
+	position: relative;
+}
+
+.wrapper-three {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.single-project .personal .project-img-halved .wrapper-three .item:nth-of-type(1),
+.single-project .personal .project-img-halved .wrapper-three .item:nth-of-type(2),
+.single-project .personal .project-img-halved .wrapper-three .item:nth-of-type(3) {
+	position: relative;
+	width: 29.6%;
+	left: 0;
+	top: 0;
+	padding: 0%;
+}
+
+.single-project .personal .project-img-halved .wrapper-three {
+	padding: 15px 15px 15px 0;
+}
+
+.single-project  .personal .project-img-halved .img-cover {
+	height: auto;
+	width: 100%;
+
+}
+
+.single-project  .personal .project-img-halved .item {
+	width: 57%;
+	height: auto;
+	padding: 15px 0 15px 15px;
+	margin-left: 0;
+}
+
+.single-project  .personal .project-img-halved .item:nth-of-type(2) {
+	float: left;
+}
+
+.single-project .project-img-halved-02 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.single-project .project-img-halved-02 .item:nth-of-type(1) {
+	width: 40%;
+	padding: 15px 15px 15px 0;
+	position: relative;
+}
+
+.single-project .project-img-halved-02 .item:nth-of-type(2) {
 	width: 33%;
-	margin-left: 30px;
-	
+	padding: 15px;
+}
+
+.single-project .project-img-halved-02 .item:nth-of-type(3) {
+	width: 27%;
+	padding: 15px 0 15px 15px;
 }
 
 
