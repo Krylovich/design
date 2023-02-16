@@ -95,8 +95,7 @@ body {
 # background #212121
 ------------------------------------------------------*/ 
 
-.agency-modern .about .info,
-.footer-inverse {
+.agency-modern .about .info {
 	background: #212121;
 }
 
@@ -200,6 +199,15 @@ body {
 .team-member .overlay,
 .portfolio-item-overlay {
 	background: #fff;
+}
+
+.footer-default .info ul li a,
+.footer-default .info ul li span {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.footer-default .info ul li:first-child {
+	color: #fff;
 }
 
 .cta_01 .btn:hover {
