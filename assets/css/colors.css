@@ -59,7 +59,8 @@ body {
 .portfolio-item-title,
 .contact-info li:first-child,
 .contact-form input::placeholder,
-.contact-info li:first-child {
+.contact-info li:first-child,
+.about-me .testimonials-content .item p {
 	color:#000;
 }
 

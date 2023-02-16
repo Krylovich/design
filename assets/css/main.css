@@ -1515,7 +1515,37 @@ footer ul {
 	width: 100%;
 }
 
+.about-me .testimonials h2 {
+	text-align: center;
+}
 
+.about-me .testimonials-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 25px 0 10px;
+}
+
+.about-me .testimonials-content .item {
+	width: 30%;
+	margin-left: 15px;
+}
+
+.about-me .testimonials-content .item span {
+  line-height: .95rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.about-me .testimonials-content .item hr {
+	width: 40%;
+	margin-top: 20px;
+	margin-bottom: 2px;
+}
+
+.about-me .testimonials-content .item:nth-of-type(1){
+	margin-left: 0;
+}
 
 /* =============== # About Us =============== */
 
@@ -1735,6 +1765,31 @@ footer ul {
 .personal-portfolio .irregular-grid-02 {
 	margin-bottom: 100px;
 }
+
+.personal .project-img-halved {
+	width: 100%;
+	margin-top: 15px;
+}
+.personal .project-img-halved .wrapper:nth-of-type(1) {
+	width: 40%;
+	float: left;
+}
+
+.personal .project-img-halved .wrapper .item:nth-of-type(1) {
+	width: 100%;
+	margin-bottom: 15px;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+
+.personal .project-img-halved .wrapper .item:nth-of-type(2),
+.personal .project-img-halved .wrapper .item:nth-of-type(3),
+.personal .project-img-halved .wrapper .item:nth-of-type(4) {
+	width: 33%;
+	margin-left: 30px;
+	
+}
+
 
 /* =============== # Single Project =============== */
 
