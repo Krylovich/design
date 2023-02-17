@@ -1100,7 +1100,8 @@ Table of Contents
 	}
 
 	.about-me h2 {
-		font-size: 2.4rem;
+		font-size: 2.2rem;
+		line-height: 1.2;
 	}
 
 	.about-me .services {
@@ -1144,7 +1145,7 @@ Table of Contents
 	}
 
 	.agency-modern .hero .content {
-		margin-top: 50px;
+		margin-top: 90px;
 	}
 
 	.agency-modern .hero h1 {
